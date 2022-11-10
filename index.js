@@ -78,7 +78,7 @@ let j = 0
 
 div.innerHTML = `<div id="div_2">
                 <div id="img_div">
-                    <img src="img/Darenimo_1.jpg" alt="bg">
+                    <img src="Img/Darenimo_1.jpg" alt="bg">
                 </div>
                 <p id="ecriture">${array[j]}
                 </p>
@@ -96,7 +96,7 @@ function Change () {
                 if (i != 11) {
                     div.innerHTML = `<div id="div_2">
                             <div id="img_div">
-                                <img src="img/Darenimo_${i}.jpg" alt="bg">
+                                <img src="Img/Darenimo_${i}.jpg" alt="bg">
                             </div>
                             <p id="ecriture">${array[j]}
                             </p>
@@ -104,7 +104,7 @@ function Change () {
                 } else {
                     div.innerHTML = `<div id="div_2">
                             <div id="img_div_11">
-                                <img src="img/Darenimo_${i}.jpg" alt="bg">
+                                <img src="Img/Darenimo_${i}.jpg" alt="bg">
                             </div>
                             <p id="ecriture">${array[j]}
                             </p>
@@ -130,7 +130,7 @@ function Change () {
                 div.innerHTML = `<div id="div_2">
                     
                     <div id="img_div">
-                        <img src="img/Darenimo_1.jpg" alt="bg">
+                        <img src="Img/Darenimo_1.jpg" alt="bg">
                     </div>
                     <p id="ecriture">${array[j]}
                     </p>
@@ -149,7 +149,7 @@ function Previous() {
             div.style.opacity = "1"
             div.innerHTML = `<div id="div_2">           
                     <div id="img_div">
-                        <img src="img/Darenimo_${i}.jpg" alt="bg">
+                        <img src="Img/Darenimo_${i}.jpg" alt="bg">
                     </div>
                     <p id="ecriture">${array[j]}
                     </p>
