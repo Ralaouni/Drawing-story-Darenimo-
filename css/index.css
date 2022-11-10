@@ -1,0 +1,78 @@
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100;
+  }
+}
+body {
+  background-color: black;
+}
+
+#big_div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+}
+#big_div #div_2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+#big_div #div_2 #ecriture {
+  position: absolute;
+  bottom: 20%;
+  font-family: fantasy, cursive;
+  color: white;
+  animation: appear 4s;
+  font-size: 16px;
+  width: 50%;
+}
+#big_div #div_2 #img_div {
+  animation: appear 4s;
+  width: 500px;
+}
+#big_div #div_2 #img_div img {
+  width: 100%;
+}
+#big_div #div_2 #img_div_11 {
+  animation: appear 4s;
+  width: 500px;
+}
+#big_div #div_2 #img_div_11 img {
+  position: relative;
+  right: 50%;
+  width: 200%;
+}
+
+#buttons {
+  position: absolute;
+  width: 100%;
+  bottom: 7%;
+  text-align: center;
+}
+#buttons button {
+  background-color: white;
+  border-radius: 5px;
+  border: none;
+  position: relative;
+  width: 80px;
+  cursor: pointer;
+}
+#buttons button:hover {
+  background-color: rgb(161, 161, 161);
+}
+#buttons #Previous {
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+  right: 160px;
+}
+#buttons #Next {
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+  left: 160px;
+}
+
+/*# sourceMappingURL=index.css.map */

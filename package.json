@@ -1,0 +1,15 @@
+{
+  "name": "darenimo_naranai",
+  "version": "1.0.0",
+  "description": "RPG Story",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "sass": "sass --watch ./sass/index.scss:./css/index.css"
+  },
+  "author": "Gaetan",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.56.1"
+  }
+}
