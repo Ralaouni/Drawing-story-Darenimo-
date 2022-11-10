@@ -2,7 +2,7 @@ const div = document.querySelector("#big_div")
 
 
 
-const ecriture_1 = "Oda Miyamoto était un homme bon, un samourai droit suivant le code du bushido ..."
+const ecriture_1 = "Oda Miyamoto était un homme bon, un samourai droit suivant le code du bushido ... "
 
 const ecriture_2 = "...mari d'une femme qu'il aimait de tout son être, il travaillait dur pour son pays et mettait tout son coeur pour gagner le respect de ses pairs"
 
